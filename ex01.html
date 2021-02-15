@@ -1,0 +1,226 @@
+<!-- Criando uma página html, deve-se: 
+a) Utilizando tabelas, apresentar um cronograma de atividades
+   de um ano, especificando as atividades a serem desenvolvidas
+   em cada um dos meses.
+
+b) Utilizando listas ordenadas, listar os itens a serem comprados em um supermercado.
+
+c) Utilizando listas não ordenadas e ligações, desenvolver um bookmark ou uma lista de sites
+   favoritos, apresentando 10 sites diferentes, que devem ser abertos em uma nova janela.
+
+d) Utilizando formulários, desenvolver entradas de dados que simulem um cadastro de usuário com nome, unidade federativa
+   do endereço atual. data de nascimento, sexo, estado civil e endereço de email. O formulário deverá conter um botão para envio e outro para que os
+   dados sejam retornados ao estado original.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio01</title>
+</head>
+<body>
+    <table border="1">
+        <!-- QUESTÃO A -->
+        <caption>
+            <em>CRONOGRAMA DE ATIVIDADES ANUAIS</em>
+        </caption>
+
+        <tr>
+            <th>Janeiro</th>
+            <th>Fevereiro</th>
+            <th>Março</th>
+            <th>Abril</th>
+            <th>Maio</th>
+            <th>Junho</th>
+            <th>Julho</th>
+            <th>Agosto</th>
+            <th>Setembro</th>
+            <th>Outubro</th>
+            <th>Novembro</th>
+            <th>Dezembro</th>
+        </tr>
+        <tr>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            
+
+        </tr>
+        <tr>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            
+        </tr>
+
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+            <!-- QUESTÃO B -->
+    <h4>
+        Itens a serem comprados no supermercado
+    </h4>
+
+    <ol>
+        <li>Óleo</li>
+        <li>Açucar</li>
+        <li>Itens de higiene pessoal</li>
+            <ul>
+                <li>Escova de dentes</li>
+                <li>Pasta de dente</li>
+                <li>Shampoo</li>
+            </ul>
+        <li>Caderno</li>
+        <li>SSD</li>
+    </ol>
+   
+    <br>
+    <br>
+    <br>
+    <br>
+            <!-- QUESTÃO C -->
+
+            <h4>Top 10 sites favoritos</h4>
+    <ul>
+        <li> <a href="http://www.google.com.br" target="_blank">Site favorito</a> </li>
+        <li> <a href="http://www.google.com.br" target="_blank">Site favorito</a> </li>
+        <li> <a href="http://www.google.com.br" target="_blank">Site favorito</a> </li>
+        <li> <a href="http://www.google.com.br" target="_blank">Site favorito</a> </li>
+        <li> <a href="http://www.google.com.br" target="_blank">Site favorito</a> </li>
+        <li> <a href="http://www.google.com.br" target="_blank">Site favorito</a> </li>
+        <li> <a href="http://www.google.com.br" target="_blank">Site favorito</a> </li>
+        <li> <a href="http://www.google.com.br" target="_blank">Site favorito</a> </li>
+        <li> <a href="http://www.google.com.br" target="_blank">Site favorito</a> </li>
+        <li> <a href="http://www.google.com.br" target="_blank">Site favorito</a> </li>
+    </ul>    
+    
+    <br>
+    <br>
+    <br>
+    <br>
+            <!-- QUESTÃO D -->
+
+            <h4>Cadastro de usuários</h4>
+            <form action="https://www.google.com.br" metohd="post">
+                 Email: <input type="text" name="Email"> 
+                 <br>
+                 
+                Senha: <input type="password" name="Senha">
+                <br>
+                
+                 Nome: <input type="text" name="name"> 
+                <br>
+                
+                UF: <input type="UF" name="UF"> 
+                <br>
+               Data de nascimento: <input type="date" name="Data de nascimento">
+                <br>
+                 foto:  <input type="file" name="Foto">
+                 <br>
+                 <br>
+                  Sexo:  <input type="radio" name="Sexo" value="F"> Feminimo
+                                 <input type="radio" name="Sexo" value="M"> Masculino
+                                 <br>
+
+                   <br>
+                    Estado civil:  <input type="radio" name="estado" value="married"> Casado
+                           <input type="radio" name="estado" value="solo"> Solteiro
+                           <input type="radio" name="estado" value="widower"> Viuvo
+                    <br>
+                
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Redefinir">
+            </form>
+
+            <br>
+            <br>
+            <br>
+            <br>
+                    <!-- TREINO DE TABELA -->
+            <table border="1">
+                <tr>
+                    <th>Boletim Escolar</th>
+                    <th colspan="6">Aluno Sicrano</th>
+                    <th>Ano 2010</th>
+                </tr>
+            
+                <tr>
+                    <th>Disciplinas</th>
+                    <th>N1</th>
+                    <th>F1</th>
+                    <th>N2</th>
+                    <th>F2</th>
+                    <th>Nf</th>
+                    <th>MF</th>
+                    <th>Resultado</th>
+                </tr>
+
+                <tr>
+                    <td>Matemática</td>
+                    <td>10,0</td>
+                    <td>0</td>
+                    <td>8,0</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>9,0</td>
+                    <td>Aprovado</td>
+                </tr>
+                <tr>
+                    <td>História</td>
+                    <td>10,0</td>
+                    <td>0</td>
+                    <td>8,0</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>9,0</td>
+                    <td>Aprovado</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>10,0</td>
+                    <td>0</td>
+                    <td>8,0</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>9,0</td>
+                    <td>Aprovado</td>
+                </tr>
+                <tr>
+                    <td>Lingua portuguesa</td>
+                    <td>10,0</td>
+                    <td>0</td>
+                    <td>8,0</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>9,0</td>
+                    <td>Aprovado</td>
+                </tr>
+
+
+            </table>
+</body>
+</html>

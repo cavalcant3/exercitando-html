@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form name="frmlogin" method="GET" action="Fazerlogin.php">
+         <label for="usuario">Usuario:</label> 
+            <input type="text" id="usuario">
+             <br/>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha"> <br> <!--já é pre formatado para inserção de senha-->
+
+            <input type="submit" value="Entrar">  <!--enviar dados do formulario para o back-end-->
+            <input type="reset"> <!--Botão para limpar os campos-->
+    </form>
+                      <!-- FORMULÁRIO COM DEMAIS OPÇÕES DE ENVIO -->
+    <h4>Cadastro de usuários</h4>
+    <form action="https://www.google.com.br" metohd="post">
+         Email: <input type="text" name="Email"> 
+        <br>
+        <Senha: <input type="password" name="Senha">
+        <br>
+        <br>
+         foto:  <input type="file" name="Foto">
+         <br>
+         <br>
+          Sexo:  <input type="radio" name="Sexo" value="F"> Feminimo
+                         <input type="radio" name="Sexo" value="M"> Masculino
+                         <br>
+        <input type="hidden" name="Loja" value="Comercial cometa">
+        <br>
+        <input type="checkbox" name="news"> Receber noticias do site
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Redefinir">
+    </form>
+</body>
+</html>
