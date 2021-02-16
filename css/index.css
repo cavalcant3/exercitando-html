@@ -1,0 +1,28 @@
+* {
+    background-color: rgb(53, 53, 53);
+}
+#imagem {
+    background-attachment: fixed;
+     background-image: url(textura-de-papel-vermelho-amassado-vintage-criativo-para-o-fundo-do-projeto_53476-5099.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 190px;
+    width: 331px;
+}
+
+/* Nesse bloco faz a repetição da imagem no eixo x
+    body { 
+    
+    background-image: url(textura-de-papel-vermelho-amassado-vintage-criativo-para-o-fundo-do-projeto_53476-5099.jpg);  
+    background-repeat: repeat-x;
+    background-position: 0px 15px;
+    
+}*/
+
+.barra {
+    width: 370px;
+    background-color: #069;
+    color: #fff;
+    font-family: Verdana, arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
